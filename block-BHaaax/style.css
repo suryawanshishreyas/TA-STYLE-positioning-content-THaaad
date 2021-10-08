@@ -81,18 +81,20 @@ section {
     background-color: tomato;
     
 }
-header, footer {
+footer {
     background-color: rgb(250, 204, 160);
     padding-top: 10px;
 }
+header {
+    background-color: rgb(250, 204, 160);
 
+}
 p{
     float: left;
-    padding: 30px;
     color: red;
     font-size: 30px;
 }
-p1fg{
+p1{
     text-align: center;
     padding-bottom: 20px;
 }
