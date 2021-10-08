@@ -70,6 +70,7 @@ aside, section {
     display: inline-block;
 }
 aside {
+    float:left;
     text-align: left;
     width: 37%;
     background-color: snow;
@@ -87,9 +88,13 @@ header, footer {
 
 p{
     float: left;
-    padding: 0 ;
+    padding: 30px;
     color: red;
     font-size: 30px;
+}
+p1fg{
+    text-align: center;
+    padding-bottom: 20px;
 }
 a{
     margin: 0 20px 0 20px;
