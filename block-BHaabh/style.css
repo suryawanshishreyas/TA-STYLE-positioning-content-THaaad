@@ -1,0 +1,248 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*header*/
+.header{
+    vertical-align: middle;
+}
+header{
+    background-color: #5385C1;
+}
+.logo{
+    width: 180px;
+    
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 24px; 
+    padding: 50px 0;
+    font-size: 0;
+    vertical-align: middle;
+}
+    
+.header,.nav{
+    display: inline-block;
+    vertical-align: middle;
+}
+.nav{
+    width: calc(100% - 260px);
+    text-align: right;
+    font-size: 20px;
+    vertical-align: middle;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    size: 24px;
+    margin-left: 10px;
+}
+h1{
+    font-size: 20px;
+    color:white;
+}
+.header{
+    padding-left: 50px;
+}
+/*main*/
+main{
+    background-color: #5385C1;
+}
+.container1{
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top:40px;
+    padding-bottom: 90px;
+}
+h2{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+p{
+    color: white;
+}
+.container2{
+    background-color: white;
+    max-width: 1200px;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-left: 90px;
+ margin-bottom: 60px;
+    }
+.passage{
+    color: black;
+    color: #B8B8B8;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.div1 ,.container2{
+    display: inline-block;
+}
+.div1{
+    width: 33%;
+}
+section{
+    background-color: white;
+    
+}
+h3{
+    font-size: 20px;
+    color: #5385C1;
+}
+.button{
+    background-color: #5385C1;
+    color: white;
+}
+/*peope section*/
+.section2{
+    background-color:#5385C1 ;
+    
+}
+.heading{
+    text-align: center;
+    margin-top: 90px;
+    padding-bottom: 40px;
+}
+
+.container4 , .div2{
+    display: inline-block;
+}
+.container3{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.container4{
+    width: 100%;
+    font-size: 0;
+    text-align: center;
+    padding-bottom: 60px;
+    
+
+}
+.div2{
+width: 20%;
+border: 1px solid white;
+box-sizing: border-box;
+margin: 0 10px;
+
+}
+.div2 img{
+    border-radius: 50%;
+    padding: 20px;
+}
+h4{
+    font-size: 15px;
+    color: white;
+    padding-bottom: 20px
+}
+.passage2{
+    color: #C9C9C9;
+    font-size: 16px;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+h5{
+    font-size: 40px;
+    color: #5385C1 ;
+   padding-top: 50px;
+   padding-bottom: 20px;
+    
+}
+.container5 , .div3{
+    display: inline-block;
+}
+.div3{
+    width: 40%;
+    padding: 0 30px;
+    margin: 0 40px;
+    box-sizing: border-box;
+    padding-bottom: 30px;
+}
+.div3 img{
+width: 400px;
+padding-bottom: 20px;
+}
+.container5{
+    font-size: 0;
+}
+hr{
+    text-align: center;
+    border-style: dashed;
+    color: #C9C9C9;
+    width: 1000px;
+    
+    
+}
+.container6{
+    color: #C9C9C9;
+}
+.container6{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.footer{
+    padding: 40px 0;
+}
+.clearfix::before
+.clearfix::after{
+    content: "";
+    display: table;
+}
+.clearfix::after{
+    clear:both;
+}
+.footer nav{
+    float: right;
+}
+.footer a{
+    color: #5385C1;
+    text-decoration: none;
+    margin-left: 10px;
+}
